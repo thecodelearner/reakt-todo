@@ -26,7 +26,7 @@ export class AddTodo extends Component {
 			<div>
 				<form onSubmit={this.handleSubmit}>
 					<div>
-						<label>Add new todo</label>
+						<label>Add new todo & Tap todo to delete it</label>
 						<input type="text" onChange={this.handleChange} value={this.state.contentcls} />
 					</div>
 				</form>
